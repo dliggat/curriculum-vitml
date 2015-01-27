@@ -4,3 +4,30 @@ body {
   margin: 0;
   padding: 0;
 }
+
+
+.header {
+  background: #26a69a;
+  min-height: 160px;
+  position: relative;
+
+  .name {
+    bottom: 40px;
+    font-size: 60px;
+    left: 40px;
+    position: absolute;
+  }
+}
+
+.resume {
+  .resume-body {
+    padding: 0 40px;
+  }
+  h1 {
+    border-bottom: solid 2px #00695c;
+    width: 40%;
+  }
+  p {
+    margin: .8em 0;
+  }
+}
