@@ -1,0 +1,19 @@
+{
+  "name": "curriculum-vitml",
+  "version": "0.0.0",
+  "authors": [
+    "Dave Liggat <dliggat@gmail.com>"
+  ],
+  "description": "A CV/resume scaffold for middleman",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.0"
+  }
+}
