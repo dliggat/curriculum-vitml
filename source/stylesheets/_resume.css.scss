@@ -1,22 +1,9 @@
-@charset "utf-8";
-
-@import "foundation/settings";
-@import "normalize";
-@import "foundation";
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Georgia';
-}
-
-
 .header {
   min-height: 160px;
   position: relative;
+  font-family: $header-font-family;
 
-  .name {
-    font-size: 60px;
+  h1 {
     text-align: center;
   }
 }
@@ -29,6 +16,7 @@ body {
     padding: 0 3em;
   }
   p {
+    color: red;
     margin: .8em 0;
   }
 
