@@ -1,3 +1,8 @@
+.cv {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
 .header {
   min-height: 8rem;
   position: relative;
@@ -13,9 +18,22 @@
     max-width: 53rem;
     padding: 0 2rem;
     text-align: center;
+    ul {
+      margin-left: 0;
+    }
     li {
       display: inline;
       padding-right: 2rem;
+      font-family: $font-family-sans-serif;
+      i {
+        font-style: normal;
+        span {
+          padding-left: 0.4rem;
+        }
+      }
+    }
+    li:last-child {
+      padding-right: 0;
     }
   }
 }
@@ -83,7 +101,11 @@
   }
 
   .footer {
+    padding-top: 2rem;
     text-align: center;
     font-style: italic;
+    p {
+      margin-bottom: 0;
+    }
   }
 }

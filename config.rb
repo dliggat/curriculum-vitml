@@ -5,6 +5,7 @@
 # Change Compass configuration
 compass_config do |config|
   config.add_import_path "bower_components/foundation/scss"
+  config.add_import_path "bower_components/foundation-icon-fonts"
   config.output_style = :compact
 end
 

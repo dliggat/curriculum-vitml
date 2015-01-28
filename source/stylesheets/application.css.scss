@@ -3,4 +3,8 @@
 @import "foundation/settings";
 @import "normalize";
 @import "foundation";
+
+$fi-path: "/bower_components/foundation-icon-fonts";
+@import "foundation-icons";
+
 @import "cv";
