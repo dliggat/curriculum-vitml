@@ -1,4 +1,6 @@
 @charset "utf-8";
+
+@import "foundation/settings";
 @import "normalize";
 @import "foundation";
 
@@ -23,7 +25,7 @@ body {
   .resume-body {
     margin-left: auto;
     margin-right: auto;
-    max-width: 48em;
+    max-width: 50em;
     padding: 0 3em;
   }
   p {
