@@ -1,8 +1,8 @@
 # Curriculum-Vitml
 
-This is a Ruby, SCSS, Slim based personal resume generator.
+This is a personal resume static-HTML generator based on Ruby-Middleman, SCSS, and the Slim templating language.
 
-Prerequisites:
+Prerequisites (documentation abounds for installing these on your platform of choice):
 * Ruby 2.1.2, Bundler
 * NPM, Bower
 
@@ -12,7 +12,7 @@ Usage:
 * `bundle install`
 * `bower install`
 * `bundle exec middleman server`
-* Visit http://localhost:4567
+* Visit [http://localhost:4567](http://localhost:4567)
 * Edit and create additional `source/content` slim partials as necessary
   * Ensure they are linked from `index.html.slim`
 * Optional: print the resulting page to PDF (tested in Chrome)
