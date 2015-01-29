@@ -3,66 +3,26 @@ title: Firstname Lastname
 ---
 
 .cv
-  .header
-    h1 #{current_page.data.title}
-    .contact
-      ul
-        li
-          i.fi-telephone
-            span +1.555.555.5555
-        li
-          i.fi-mail
-            span firstname@lastname.org
-        li
-          i.fi-social-github
-            span FirstLast
-
+  = partial 'content/header'
 
   .cv-body
     h2 Profile
-    ul
-      li Proficient at leveraging core competencies
-      li A TPS report completionist with an unyielding focus on perfectionism
-      li A passionate advocate for the absence of I in TEAM
+    = partial 'content/profile'
 
     h2 Professional Experience
     p
       |
-        Lorem Ipsum imperdiet nulla justo, id lacinia risus porta porta. etiam tincidunt tellus a mauris ornare finibus quis at sem. vestibulum id vehicula diam. integer sed neque consequat, volutpat arcu at, pretium mi. donec eu malesuada ex. morbi consequat finibus est, vitae tincidunt nisi facilisis sit amet. curabitur malesuada nunc convallis ligula hendrerit congue. cras tellus diam, finibus et odio et, molestie ullamcorper massa.
+        Lorem Ipsum imperdiet nulla justo, id lacinia risus porta porta. etiam tincidunt tellus a mauris ornare finibus quis at sem. vestibulum id vehicula diam.
 
-    .cv-entry
-      .coordinates
-        .duration
-          h4 Apr-2012 – present
-        h3 Job Title
-        h4
-          span.company Company Name
-          span.location City, State
-      .synopsis
-        p
-          |
-            Lorem Ipsum imperdiet nulla justo, id lacinia risus porta porta. etiam tincidunt tellus a mauris ornare finibus quis at sem. vestibulum id vehicula diam. integer sed neque consequat, volutpat arcu at, pretium mi. donec eu malesuada ex. morbi consequat finibus est, vitae tincidunt nisi facilisis sit amet. curabitur malesuada nunc convallis ligula hendrerit congue. cras tellus diam, finibus et odio et, molestie ullamcorper massa.
-      .additional
-        h4 Highlights
-        ul
-          li Highlight 1
-          li Highlight 2
-          li Highlight 3
-        h4 Technologies
-        p Technology 1, technology 2, technology 3
-
+    = partial 'content/roles/02_role'
+    = partial 'content/roles/01_role'
 
     h2 Education
     p
       |
-        abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz imperdiet nulla justo, id lacinia risus porta porta. etiam tincidunt tellus a mauris ornare finibus quis at sem. vestibulum id vehicula diam. integer sed neque consequat, volutpat arcu at, pretium mi. donec eu malesuada ex. morbi consequat finibus est, vitae tincidunt nisi facilisis sit amet. curabitur malesuada nunc convallis ligula hendrerit congue. cras tellus diam, finibus et odio et, molestie ullamcorper massa.
-
+        abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz imperdiet nulla justo.
+    = partial 'content/edu/01_edu'
 
   .footer
     p References Available Upon Request
     p Information Current as of #{Date.today.strftime('%B %Y')}
-
-
-
-
-
