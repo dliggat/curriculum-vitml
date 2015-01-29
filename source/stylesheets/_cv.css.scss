@@ -63,7 +63,7 @@
       font-family: $font-family-sans-serif;
     }
 
-    .title {
+    .coordinates {
       width: 100%;
       padding-bottom: 0.75rem;
       h3, h4 {
@@ -74,7 +74,7 @@
         @include right-side-float;
       }
       .duration {
-        h3 {
+        h4 {
           @include right-side-float;
         }
       }
