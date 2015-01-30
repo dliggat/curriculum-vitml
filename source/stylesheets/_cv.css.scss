@@ -22,9 +22,10 @@
       margin-left: 0;
     }
     li {
-      display: inline;
+      display: inline-block;
       padding-right: 2rem;
       font-family: $font-family-sans-serif;
+      white-space: nowrap;
       i {
         font-style: normal;
         span {
