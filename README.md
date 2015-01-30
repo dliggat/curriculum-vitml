@@ -1,6 +1,6 @@
 # Curriculum-Vitml
 
-This is a personal resume static-HTML generator based on Ruby-Middleman, SCSS, and the Slim templating language.
+This is a personal resume static-HTML generator based on Ruby-Middleman, SCSS, and the Slim templating language. An overview of the motivation for this can be found [on my site](http://liggat.org/2015/01/30/personal-cvs-with-curriculum-vitml/).
 
 Prerequisites (documentation abounds for installing these on your platform of choice):
 * Ruby 2.1.2, Bundler
