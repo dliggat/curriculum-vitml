@@ -1,15 +1,23 @@
 @charset "utf-8";
 
-@import "page_break";
-
 @import "foundation/settings";
-@import "print";
+$fi-path: "/bower_components/foundation-icon-fonts";
+@import "foundation-icons";
 
 @import "normalize";
 @import "foundation";
 
-$fi-path: "/bower_components/foundation-icon-fonts";
-@import "foundation-icons";
+@media screen, print {
+  .page-break {
+    display: none;
+  }
+  @import "cv";
+}
 
-@import "cv";
-
+@media print {
+  .page-break {
+    display: block;
+    page-break-before: always;
+  }
+  @import "print";
+}
